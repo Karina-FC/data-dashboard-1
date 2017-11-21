@@ -1,4 +1,4 @@
-#DATA-DASHBOARD
+# DATA-DASHBOARD
 
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
@@ -53,8 +53,8 @@
 HTML - CSS - JAVASCRIPT  Para páginas web dinámicas.
 
 
-#### Autoras 
+##### Autoras 
 
-María Paz Thompson - JavaScrip - Html - Css
-Karina Fuentealba Html - Css
-(Squad Fantastic For)
+#### María Paz Thompson - JavaScrip - Html - Css
+#### Karina Fuentealba Html - Css
+#### (Squad Fantastic For)
