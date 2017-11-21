@@ -7,6 +7,14 @@
 
 ***
 
+
+#### Autoras 
+
+##### María Paz Thompson - JavaScrip - Html - Css
+##### Karina Fuentealba Html - Css
+###### (Squad Fantastic For)
+
+***
 ### Descripción del Proyecto
 ##### Data-Dashboard es una herramienta web donde se puede ver el  desempeño de las estudiantes de Laboratoria.  Su función principal es la visualización de datos, a través de gráficos de manera fácil y rápida,  para que las Training Managers (TMs) puedan obtener una optimización del tiempo en el análisis de datos.
 
@@ -53,8 +61,3 @@
 HTML - CSS - JAVASCRIPT  Para páginas web dinámicas.
 
 
-### Autoras 
-
-#### María Paz Thompson - JavaScrip - Html - Css
-#### Karina Fuentealba Html - Css
-#### (Squad Fantastic For)
