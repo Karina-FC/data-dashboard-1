@@ -1,0 +1,522 @@
+/*
+ * Estilos de tu proyecto
+ */
+/*Definiendo estilo del encabezado de la Página*/
+*{
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	text-transform: uppercase;
+}
+
+body {
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background:#fff;
+	height: 63px;
+	width: 100%;
+}
+
+header #logo {
+	padding-top: 15px;
+	height: 90px;
+	margin-left: 15px;
+	margin-top: -20px;
+	width:100%;
+}
+
+nav {
+	background: #F7F7F7;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-H {
+	background: #FBD300;
+	width: 100%;
+	height: 100px;
+}
+
+.menu-H #foto-vale {
+	height: 80px;
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.menu-H p {
+	font-size: 10px bold 900;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: -80px;
+}
+
+.menu-H button {
+	display: inline-block;
+	font-size: 13px;
+	padding: 10px;
+    background-color: #E0E0E0;
+    margin-left: 120px;
+    border: 0.5px solid black;
+}
+
+.menu-H #select {
+	display: inline-block;
+	font-size: 13px;
+	padding: 9px;
+	background: #E0E0E0;
+	width: 15%;
+    margin-left: 420px;
+    border: 0.5px solid black;
+}
+
+.iconos {
+	background-color: black;
+	display: inline-block;
+	width: 10px; /*ancho de la imagen*/
+	padding-left: 815px;
+	cursor:pointer;
+}
+
+.fa-home .fa-search2:hover{ /*resalta el icono con el cursor*/
+	cursor:pointer;
+}
+
+/*.iconos .icon-home .icon-notificaciones .icon-cog .icon-search2 {
+  display:inline-block;
+  width: 35px; height: 35px;
+  padding:0;
+  margin:10px auto 0 auto;
+  outline: 2px solid red;
+}
+
+/*Definiendo estilo de títulos superiores en contenedores de gráficos*/
+.contenedores h3 {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+/*descripcion cuadro pequeño*/
+.desc{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 5px;
+}
+/*descripción cuadros grandes*/
+.desc2{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+/*NºResultado cuadro pequeño*/
+.results{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+/*NºResultado cuadro grande*/
+.results2{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+/*primer contendor con gráfico*/
+.contenedores .cont1 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: 31px;
+	left: 300px;
+	background:#FBD300;
+}
+
+.contenedores .cont1 #cant1 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #fff;
+}
+
+.contenedores .cont1 #prom1 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 145px;
+	padding-top: 9px;
+	background: #fff;
+}
+
+/*.contenedores .cont1 #graf1 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}*/
+
+#barra {
+	position: absolute;
+	height: 132px;
+	margin-left: 18px;
+	margin-top: 85px;
+	width: 242px;
+}
+
+/*Segundo contendor con gráfico*/
+.contenedores .cont2 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: -265px;
+	left: 610px;
+	background:#FBD300;
+}
+
+.contenedores .cont2 #cant2 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	padding-left: 5px;
+  padding-right: 6px;
+	background: #fff
+}
+
+.contenedores .cont2 #prom2 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 145px;
+	background: #fff;
+	padding-top: 5px;
+}
+
+/*.contenedores .cont2 #graf2 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}*/
+
+#linea {
+	position: absolute;
+	height: 132px;
+	margin-left: 18px;
+	margin-top: 85px;
+	width: 242px;
+}
+
+/*tercer contendor con gráfico*/
+.contenedores .cont3 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: -560px;
+	left: 920px;
+	background:#FBD300;
+}
+
+.contenedores .cont3 #cant3 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	padding-top: 7px;
+	background: #fff;
+}
+
+.contenedores .cont3 #prom3 {
+	position:absolute;
+	width: 116px;
+	height: 81px;
+	top: 40px;
+	left: 145px;
+	padding-left: 7px;
+	padding-right: 8px;
+	padding-top: 16px;
+	background: #fff;
+}
+
+/*.contenedores .cont3 #graf3 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}
+
+/*cuarto contendor con gráficos*/
+.contenedores .cont4 {
+	background-size: 100%;
+	position:relative;
+	width: 900px;
+	height: 417px;
+	top: -550px;
+	left: 300px;
+	background:#FBD300;
+}
+/*Definiendo posición de menú en contenedor 4*/
+.cont4 #menusprint {
+	position: absolute;
+	left: 320px;
+	top:20px;
+}
+
+.contenedores .cont4 #cant4 {
+	position:absolute;
+	width: 260px;
+	height: 91px;
+	top: 40px;
+	left: 20px;
+	background: #fff;
+}
+
+.contenedores .cont4 #prom4 {
+	position:absolute;
+	width: 260px;
+	height: 91px;
+	top: 40px;
+	left: 295px;
+	background: #fff;
+}
+
+#barraG {
+	position:absolute;
+	width: 555px;
+	height: 258px;
+	top: 145px;
+	left: 18px;
+}
+
+#circular {
+	position:absolute;
+	width: 292px;
+	height: 258px;
+	top: 145px;
+	left: 590px;
+}
+
+/*.contenedores .cont4 #grafbarra4 {
+	position:absolute;
+	width: 587px;
+	height: 258px;
+	top: 145px;
+	left: 18px;
+	background: #F7F7F7;
+}
+
+.contenedores .cont4 #grafcircular4  {
+	position:absolute;
+	width: 262px;
+	height: 258px;
+	top: 145px;
+	left: 618px;
+	background: #F7F7F7;
+}
+
+/*Quinto contendor con gráficos*/
+.contenedores .cont5 {
+	background-size: 100%;
+	position:relative;
+	width: 900px;
+	height: 417px;
+	top: -530px;
+	left: 300px;
+	background:#FBD300;
+}
+
+.cont5 #menuhse {
+	position: absolute;
+	left: 320px;
+	top:10px;
+}
+
+.contenedores .cont5 #cant5 {
+	position:absolute;
+	width: 260px;
+	height: 91px;
+	top: 40px;
+	left: 20px;
+	background: #fff;
+}
+
+.contenedores .cont5 #prom5 {
+	position:absolute;
+	width: 260px;
+	height: 91px;
+	top: 40px;
+	left: 295px;
+	background: #fff;
+}
+
+/*.contenedores .cont5 #grafbarra5 {
+	position:absolute;
+	width: 587px;
+	height: 258px;
+	top: 145px;
+	left: 18px;
+	background: #F7F7F7;
+}
+
+.contenedores .cont5 #grafcircular5  {
+	position:absolute;
+	width: 262px;
+	height: 258px;
+	top: 145px;
+	left: 618px;
+	background: #F7F7F7;
+}
+
+/*Sexto contendor con gráfico*/
+.contenedores .cont6 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: -510px;
+	left: 300px;
+	background:#FBD300;
+}
+
+.contenedores .cont6 #cant6 {
+	position:absolute;
+	width: 136px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	background: #fff;
+}
+
+/*.contenedores .cont6 #graf6 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}*/
+
+#linea1 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 130px;
+	left: 18px;
+}
+
+/*Septimo contendor con gráfico*/
+.contenedores .cont7 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: -805px;
+	left: 610px;
+	background:#FBD300;
+}
+
+.contenedores .cont7 #cant7 {
+	position:absolute;
+	width: 136px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	background: #fff;
+}
+
+/*.contenedores .cont7 #graf7 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}
+
+/*Octavo contendor con gráfico*/
+.contenedores .cont8 {
+	background-size: 100%;
+	position:relative;
+	width: 280px;
+	height: 280px;
+	top: -1102px;
+	left: 920px;
+	background: #FBD300;
+}
+
+.contenedores .cont8 #cant8 {
+	position:absolute;
+	width: 136px;
+	height: 81px;
+	top: 40px;
+	left: 18px;
+	background: #fff;
+}
+
+/*.contenedores .cont8 #graf8 {
+	position:absolute;
+	width: 242px;
+	height: 132px;
+	top: 135px;
+	left: 18px;
+	background: #F7F7F7;
+}*/
+
+.menu-V {
+	position: relative;
+	background: #E0E0E0;
+	width: 20%;
+	height: 1700px;
+	margin-top: -2676px;
+}
+
+.menu-V p {
+	text-align: left;
+	padding-top: 60px;
+}
+
+#select1 {
+	display: inline;
+	left: 40px;
+	top:10px;
+}
+
+.menu-V .iconos-V {
+  display: inline;
+  width: 40px; height: 40px;
+  top: 120px;
+  padding:10;
+  margin:10px auto 0 auto;
+}
+
+nav footer {
+	display: inline;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 90px;
+	text-align: center;
+}

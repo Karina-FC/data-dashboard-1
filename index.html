@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="icomoon/">
+
+  </head>
+
+<!-- Encabezado con logo Laboratoria -->
+   <body>
+      <header>
+        <img src="assets/images/logo-laboratoria.svg" id="logo">
+      </header>
+
+  <nav>
+  <!-- Creando Div Menú Horizontal -->
+      <div class="menu-H">
+        <img src="assets/images/Vale.png" id="foto-vale">
+        <p>Valentina Smith</p>
+        <button id="Logout">Log Out</button>
+        <select id="select">
+          <option value="0" >select option</option>
+          <option value="2015">overview</option>
+          <option value="2015">students</option>
+          <option value="2015">teachers</option>
+        </select>
+
+  <!-- Iconos Div menú superior Horizontal -->
+      <div class="iconos">
+        <p><i class="fa fa-home" aria-hidden="true"></i></p>
+        <p><i class="fa fa-search2" aria-hidden="true"></i></p>
+        <p><i class="fa fa-user-o" aria-hidden="true"></i></p>
+  </div>
+        <!--  <ul>
+         <li><span class="icon-home"></span></li>
+         <li><span class="icon-notifications"></span></li>
+          <li><span class="icon-cog"></span></li>
+          <li><span class="icon-search2"></span></li>
+        </ul>
+      </div>-->
+  </div>
+
+
+  <!-- Definiendo contenedores -->
+      <div class="contenedores">
+
+  <!-- contenedor 1 -->
+        <div class="cont1"><h3>Enrollment</h3>
+          <div id="cant1"><p id="desc1" class="desc">Students currently enrolled</p></div>
+          <div id="prom1"><p id="desc2" class="desc">Dropout</p></div>
+          <div id="graf1"></div>
+            <img src="assets/images/bar-graph.png" id="barra">
+        </div>
+
+  <!-- contenedor 2 -->
+        <div class="cont2"><h3>Achievement</h3>
+          <div id="cant2"><p id="desc3" class="desc">students that meet the target</p></div>
+          <div id="prom2"><p id="desc4" class="desc"></p></div>
+            <img src="assets/images/graph.png" id="linea">
+          <div id="graf2"></div>
+        </div>
+
+  <!-- contenedor 3 -->
+        <div class="cont3"><h3>net prometer score</h3>
+          <div id="cant3"><p id="desc5" class="desc">cumulative NPS </p></div>
+          <div id="prom3"></div>
+          <img src="assets/images/graph.png" id="linea">
+          <div id="graf3"></div>
+        </div>
+        <br>
+
+  <!-- contenedor 4 -->
+        <div class="cont4"><h3>tech skills</h3>
+          <select id="menusprint">
+            <option>overall (cumulative)</option>
+            <option value="Nc" >common core</option>
+            <p>Sprint 1 - create an interactive site</p>
+            <option value="JS">JAVASCRIPT</option>
+            <option value="UD">UX-DESIGN</option>
+          </select>
+          <div id="cant4"><p id='desc6' class="desc2"> students meet the target </p></div>
+          <div id="prom4"><p id='desc7' class="desc2">of total</p></div>
+            <img src="assets/images/rectangular-graphic.png" id="barraG">
+          <div id="grafbarra4"></div>
+            <img src="assets/images/circle-graphic.png" id="circular">
+            <div id="grafcircular4"></div>
+        </div>
+        <br>
+
+  <!-- contenedor 5 -->
+        <div class="cont5"><h3>life skills</h3>
+          <select id="menuhse">
+            <option>latest sprint (S4)</option>
+            <option value="S1" >SPRINT 1 - create an interactive site</option>
+            <option value="S2">SPRINT 2 - create an interactive site</option>
+            <option value="S3">SPRINT 3 - create an interactive site</option>
+            <option value="S3">SPRINT 4 - create an interactive site</option>
+          </select>
+          <div id="cant5"><p id='desc8' class="desc2"> overall class average</p></div>
+          <div id="prom5"><p id='desc9' class="desc2"> of students that meet the target</p></div>
+          <div id="grafbarra4"></div>
+            <img src="assets/images/rectangular-graphic.png" id="barraG">
+          <div id="grafbarra5"></div>
+            <img src="assets/images/circle-graphic.png" id="circular">
+          <div id="grafcircular5"></div>
+        </div>
+        <br>
+
+    <!-- contenedor 6 -->
+        <div class="cont6"><h3>students satisfaction</h3>
+          <div id="cant6"><p id='desc10' class="desc">meeting or exceding expectations (cumulative)</p></div>
+            <img src="assets/images/graph.png" id="linea1">
+          <div id="graf6"></div>
+        </div>
+
+    <!-- contenedor 7 -->
+        <div class="cont7"><h3>teacher rating</h3>
+          <div id="cant7"><p id='desc11' class="desc">overall teacher rating (cumulative)</p></div>
+            <img src="assets/images/graph.png" id="linea1">
+          <div id="graf7"></div>
+        </div>
+
+    <!-- contenedor 8 -->
+        <div class="cont8"><h3>Jedi Master rating</h3>
+          <div id="cant8"><p id='desc12' class="desc">overall Jedi Master (cumulative)</p></div>
+            <img src="assets/images/graph.png" id="linea1">
+          <div id="graf8"></div>
+        </div>
+    </div>
+
+
+  <!-- Creando Div Menú Vertical -->
+    <div class="menu-V">
+      <p>Select</p>
+
+  <!-- Menú Selección País-Sede -->
+      <select id="select1">
+        <option value="0" >host country</option>
+        <option value="chile">CHILE - SANTIAGO</option>
+        <option value="mex">MÉXICO - DF</option>
+        <option value="peru1">PERÚ - AREQUIPA</option>
+        <option value="peru2">PERÚ - LIMA</option>
+      </select>
+      <br>
+
+  <!-- Menú Selección Generación -->
+      <select id="select2">
+        <option value="0" >GENERATION</option>
+        <option value="2015">2017-1</option>
+        <option value="2015">2017-2</option>
+        <option value="2015">2016-1</option>
+        <option value="2015">2016-2</option>
+        <option value="2016">2015-1</option>
+        <option value="2016">2015-2</option>
+      </select>
+      <br>
+
+  <!-- Menú Selección Turno -->
+      <select id="select3">
+        <option value="0" >TURN</option>
+        <option value="AM">A.M.</option>
+        <option value="PM">P.M.</option>
+      </select>
+
+  <!-- Iconos Div menú Vertical -->
+      <div class="icon-menu-V"></div>
+        <ul>
+         <li><img src="assets/images/printer.png" class="iconos-V"/></li>
+         <li><img src="assets/images/mail.png" class="iconos-V"/></li>
+         <li><img src="assets/images/downloads.png" class="iconos-V"/></li>
+        </ul>
+    </div>
+
+  <!-- Definiendo pie de la página -->
+      <footer>
+        <p>Laboratoria 2017</p>
+        <p>Copyright © 2017 all rigths reserved.</p>
+      </footer>
+  </nav>
+
+  <div class="container"></div>
+
+  <script src="./js/data.js"></script>
+    <!-- Aquí va tus archivos JS -->
+  <script src="./js/app.js"></script>
+
+  </body>
+</html>
