@@ -1,4 +1,4 @@
-# DATA-DASHBOARD
+#DATA-DASHBOARD
 
 * **Track:** _Common Core_
 * **Curso:** _Creando tu primer sitio web interactivo_
@@ -7,10 +7,10 @@
 
 ***
 
-###Descripción del Proyecto
-#####Data-Dashboard es una herramienta web donde se puede ver el  desempeño de las estudiantes de Laboratoria.  Su función principal es la visualización de datos, a través de gráficos de manera fácil y rápida,  para que las Training Managers (TMs) puedan obtener una optimización del tiempo en el análisis de datos.
+### Descripción del Proyecto
+##### Data-Dashboard es una herramienta web donde se puede ver el  desempeño de las estudiantes de Laboratoria.  Su función principal es la visualización de datos, a través de gráficos de manera fácil y rápida,  para que las Training Managers (TMs) puedan obtener una optimización del tiempo en el análisis de datos.
 
-####Contenido:
+#### Contenido:
 * Encabezado: logo de Laboratoria.
 
 * Nav: contiene imagen de usuario, nombre, botón de Log out y menú desplegable.
@@ -19,7 +19,7 @@
 * Colores: Se utilizan los colores institucionales de Laboratoria, #FFF, #000, #F7F7F7, #FBD300.
 
 
-####Solicitudes Específicas:
+#### Solicitudes Específicas:
 
 * El total de estudiantes presentes por sede y generación.
 * El porcentaje de deserción de estudiantes.
@@ -38,7 +38,7 @@
 + La puntuación promedio de l@s profesores.
 * La puntuación promedio de l@s jedi masters.
 
-####Algunas Soluciones:
+#### Algunas Soluciones:
 
 * Para lograr obtener el total de estudiantes por sede y generación, se crea una función que cuenta a todas las estudiantes de la generación y sede.
 
@@ -48,12 +48,12 @@
 	* 1- cantidad de estudiantes
 	* 2- porcentaje de estudiantes que pasaron ambos (hse+tech)
 
-####Desarrollado con:
+#### Desarrollado con:
 
 HTML - CSS - JAVASCRIPT  Para páginas web dinámicas.
 
 
-####Autoras 
+#### Autoras 
 
 María Paz Thompson - JavaScrip - Html - Css
 Karina Fuentealba Html - Css
