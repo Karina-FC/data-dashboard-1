@@ -53,7 +53,7 @@
 HTML - CSS - JAVASCRIPT  Para páginas web dinámicas.
 
 
-##### Autoras 
+### Autoras 
 
 #### María Paz Thompson - JavaScrip - Html - Css
 #### Karina Fuentealba Html - Css
